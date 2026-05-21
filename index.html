@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMKN 2 Tembilahan - Website Resmi</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        utama: '#065f46', // Emerald 800 (Hijau Tua)
+                        utamaHover: '#047857', // Emerald 700
+                        aksen: '#ecfdf5', // Emerald 50
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+    <nav class="bg-utama text-white sticky top-0 z-50 shadow-lg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <div class="flex items-center space-x-3">
+                    <div class="bg-white p-2 rounded-full w-12 h-12 flex items-center justify-center text-utama font-bold text-xl shadow-md">
+                        🏫
+                    </div>
+                    <div>
+                        <span class="font-bold text-lg block tracking-wide">SMKN 2 TEMBILAHAN</span>
+                        <span class="text-xs text-emerald-200 block -mt-1">Unggul, Berkarakter, Berdaya Saing</span>
+                    </div>
+                </div>
+                <div class="hidden md:flex space-x-6 font-medium">
+                    <a href="#beranda" class="hover:text-emerald-200 transition">Beranda</a>
+                    <a href="#visimisi" class="hover:text-emerald-200 transition">Visi & Misi</a>
+                    <a href="#jurusan" class="hover:text-emerald-200 transition">Jurusan</a>
+                    <a href="#kontak" class="hover:text-emerald-200 transition">Kontak</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="beranda" class="relative bg-gradient-to-br from-emerald-950 via-utama to-emerald-900 text-white py-24 px-4 overflow-hidden text-center">
+        <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:16px_16px]"></div>
+        <div class="max-w-4xl mx-auto relative z-10">
+            <span class="bg-emerald-700 text-emerald-200 text-xs font-semibold px-4 py-1.5 rounded-full uppercase tracking-widest mb-4 inline-block">Selamat Datang</span>
+            <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight mb-6">
+                Membangun Masa Depan Gemilang di <span class="text-yellow-400">SMKN 2 Tembilahan</span>
+            </h1>
+            <p class="text-lg md:text-xl text-emerald-100 mb-8 max-w-2xl mx-auto">
+                Pusat pendidikan kejuruan terbaik yang siap mencetak generasi kompeten, inovatif, dan siap kerja di era global.
+            </p>
+            <div class="flex justify-center gap-4">
+                <a href="#jurusan" class="bg-yellow-500 hover:bg-yellow-400 text-emerald-950 font-bold px-6 py-3 rounded-lg shadow-md transition transform hover:-translate-y-0.5">Jelajahi Jurusan</a>
+                <a href="#kontak" class="border border-white/40 hover:bg-white/10 text-white font-semibold px-6 py-3 rounded-lg transition">Hubungi Kami</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="visimisi" class="py-20 px-4 bg-white">
+        <div class="max-w-5xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-utama mb-2">Visi & Misi Sekolah</h2>
+                <div class="h-1 w-20 bg-yellow-500 mx-auto rounded"></div>
+            </div>
+            
+            <div class="grid md:grid-cols-5 gap-8 items-stretch">
+                <div class="md:col-span-2 bg-gradient-to-b from-utama to-emerald-900 text-white p-8 rounded-2xl shadow-xl flex flex-col justify-center text-center transform hover:scale-[1.02] transition duration-300">
+                    <div class="text-4xl mb-4 text-yellow-400"><i class="fas fa-eye"></i></div>
+                    <h3 class="text-2xl font-bold mb-4">VISI</h3>
+                    <p class="italic text-emerald-100 leading-relaxed">
+                        "Menjadi Lembaga Pendidikan dan Pelatihan Kejuruan yang Unggul, Berkarakter, Menguasai IPTEK, dan Menghasilkan Lulusan yang Siap Kerja serta Berdaya Saing Global."
+                    </p>
+                </div>
+                
+                <div class="md:col-span-3 bg-aksen border border-emerald-100 p-8 rounded-2xl shadow-sm flex flex-col justify-center">
+                    <div class="text-4xl mb-4 text-utama text-center md:text-left"><i class="fas fa-bullseye"></i></div>
+                    <h3 class="text-2xl font-bold text-utama mb-6 text-center md:text-left">MISI</h3>
+                    <ul class="space-y-4">
+                        <li class="flex items-start gap-3">
+                            <span class="bg-utama text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0 mt-0.5 text-xs font-bold">1</span>
+                            <p class="text-gray-700">Menyelenggarakan proses pembelajaran yang berbasis pada penguatan karakter, disiplin, dan nilai-nilai keagamaan.</p>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="bg-utama text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0 mt-0.5 text-xs font-bold">2</span>
+                            <p class="text-gray-700">Meningkatkan kompetensi siswa di bidang ilmu pengetahuan dan teknologi sesuai dengan tuntutan Dunia Usaha dan Dunia Industri (DUDI).</p>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="bg-utama text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0 mt-0.5 text-xs font-bold">3</span>
+                            <p class="text-gray-700">Menjalin kerja sama yang erat dengan industri nasional maupun internasional untuk penyaluran lulusan dan praktek kerja lapangan.</p>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="bg-utama text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0 mt-0.5 text-xs font-bold">4</span>
+                            <p class="text-gray-700">Mengembangkan sarana dan prasarana pendidikan yang modern guna mendukung pembelajaran yang inovatif dan ramah lingkungan.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="jurusan" class="py-20 px-4 bg-gray-100">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-utama mb-2">Kompetensi Keahlian</h2>
+                <p class="text-gray-600 max-w-xl mx-auto mt-2">Pilihan jurusan unggulan terbaik yang disesuaikan dengan kebutuhan bursa kerja masa kini.</p>
+                <div class="h-1 w-20 bg-yellow-500 mx-auto rounded mt-4"></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white rounded-xl shadow-md border-t-4 border-utama p-6 hover:shadow-xl transition group">
+                    <div class="w-12 h-12 bg-aksen text-utama rounded-lg flex items-center justify-center text-xl font-bold mb-4 group-hover:bg-utama group-hover:text-white transition">01</div>
+                    <h4 class="text-xl font-bold text-gray-900 mb-3">Teknik Komputer Jaringan & Telekomunikasi</h4>
+                    <p class="text-gray-600 text-sm leading-relaxed">Membekali siswa dengan keahlian merancang infrastruktur jaringan, administrasi server, keamanan siber, dan teknologi fiber optik. Sangat prospektif di era digital.</p>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-md border-t-4 border-utama p-6 hover:shadow-xl transition group">
+                    <div class="w-12 h-12 bg-aksen text-utama rounded-lg flex items-center justify-center text-xl font-bold mb-4 group-hover:bg-utama group-hover:text-white transition">02</div>
+                    <h4 class="text-xl font-bold text-gray-900 mb-3">Teknik Permesinan</h4>
+                    <p class="text-gray-600 text-sm leading-relaxed">Fokus pada pengoperasian mesin perkakas manual maupun berbasis komputer (CNC). Siswa dilatih presisi tinggi yang sangat dibutuhkan oleh industri manufaktur.</p>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-md border-t-4 border-utama p-6 hover:shadow-xl transition group">
+                    <div class="w-12 h-12 bg-aksen text-utama rounded-lg flex items-center justify-center text-xl font-bold mb-4 group-hover:bg-utama group-hover:text-white transition">03</div>
+                    <h4 class="text-xl font-bold text-gray-900 mb-3">Teknik Geospasial Survey Pemetaan Tanah</h4>
+                    <p class="text-gray-600 text-sm leading-relaxed">Jurusan langka dan sangat dicari. Siswa menguasai alat pemetaan modern (Theodolite, Drone, GPS) untuk kebutuhan konstruksi, pertambangan, dan tata ruang.</p>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-md border-t-4 border-utama p-6 hover:shadow-xl transition group">
+                    <div class="w-12 h-12 bg-aksen text-utama rounded-lg flex items-center justify-center text-xl font-bold mb-4 group-hover:bg-utama group-hover:text-white transition">04</div>
+                    <h4 class="text-xl font-bold text-gray-900 mb-3">Teknik Kendaraan Ringan Otomotif</h4>
+                    <p class="text-gray-600 text-sm leading-relaxed">Keahlian mendalam dalam perawatan dan perbaikan mobil. Dilengkapi dengan pemahaman sistem kelistrikan mobil modern dan teknologi Electronic Fuel Injection (EFI).</p>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-md border-t-4 border-utama p-6 hover:shadow-xl transition group">
+                    <div class="w-12 h-12 bg-aksen text-utama rounded-lg flex items-center justify-center text-xl font-bold mb-4 group-hover:bg-utama group-hover:text-white transition">05</div>
+                    <h4 class="text-xl font-bold text-gray-900 mb-3">Teknik Bisnis Sepeda Motor</h4>
+                    <p class="text-gray-600 text-sm leading-relaxed">Bermitra dengan industri otomotif roda dua terkemuka. Siswa siap menjadi mekanik profesional, service advisor, atau berwirausaha membuka bengkel mandiri.</p>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-md border-t-4 border-utama p-6 hover:shadow-xl transition group">
+                    <div class="w-12 h-12 bg-aksen text-utama rounded-lg flex items-center justify-center text-xl font-bold mb-4 group-hover:bg-utama group-hover:text-white transition">06</div>
+                    <h4 class="text-xl font-bold text-gray-900 mb-3">Teknik Elektronika Audio Video</h4>
+                    <p class="text-gray-600 text-sm leading-relaxed">Menguasai pembuatan, perbaikan, dan pemrograman perangkat elektronik serta sistem audio-video modern. Peluang kerja luas di industri manufaktur dan broadcasting.</p>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-md border-t-4 border-utama p-6 hover:shadow-xl transition group">
+                    <div class="w-12 h-12 bg-aksen text-utama rounded-lg flex items-center justify-center text-xl font-bold mb-4 group-hover:bg-utama group-hover:text-white transition">07</div>
+                    <h4 class="text-xl font-bold text-gray-900 mb-3">Teknik Tenaga Surya, Hidro, dan Angin</h4>
+                    <p class="text-gray-600 text-sm leading-relaxed">Jurusan energi terbarukan masa depan. Siswa diajarkan merancang dan merawat sistem pembangkit listrik ramah lingkungan (PLTS, mikrohidro, dan kincir angin).</p>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-md border-t-4 border-utama p-6 hover:shadow-xl transition group">
+                    <div class="w-12 h-12 bg-aksen text-utama rounded-lg flex items-center justify-center text-xl font-bold mb-4 group-hover:bg-utama group-hover:text-white transition">08</div>
+                    <h4 class="text-xl font-bold text-gray-900 mb-3">Teknik Energi Biomasa</h4>
+                    <p class="text-gray-600 text-sm leading-relaxed">Mengolah limbah organik menjadi energi alternatif (biogas, bioetanol). Sangat relevan untuk pengembangan potensi perkebunan kelapa sawit di Indragiri Hilir.</p>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-md border-t-4 border-utama p-6 hover:shadow-xl transition group">
+                    <div class="w-12 h-12 bg-aksen text-utama rounded-lg flex items-center justify-center text-xl font-bold mb-4 group-hover:bg-utama group-hover:text-white transition">09</div>
+                    <h4 class="text-xl font-bold text-gray-900 mb-3">Teknik Desain Arsitektur (DPIB)</h4>
+                    <p class="text-gray-600 text-sm leading-relaxed">Mahir merancang bangunan menggunakan software arsitektur terkini (AutoCAD, SketchUp). Lulusan siap bekerja di konsultan perencana, kontraktor, atau developer.</p>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-md border-t-4 border-utama p-6 hover:shadow-xl transition lg:col-span-1 lg:col-start-2 group">
+                    <div class="w-12 h-12 bg-aksen text-utama rounded-lg flex items-center justify-center text-xl font-bold mb-4 group-hover:bg-utama group-hover:text-white transition">10</div>
+                    <h4 class="text-xl font-bold text-gray-900 mb-3">Teknik Instalasi Ketenagalistrikan</h4>
+                    <p class="text-gray-600 text-sm leading-relaxed">Ahli dalam pemasangan dan pemeliharaan instalasi listrik domestik hingga industri berskala besar, serta sistem otomatisasi berbasis PLC.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="kontak" class="py-20 px-4 bg-white">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-utama mb-2">Hubungi Kami</h2>
+                <div class="h-1 w-20 bg-yellow-500 mx-auto rounded"></div>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-12 items-start">
+                <div class="space-y-6">
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Informasi Kontak</h3>
+                    
+                    <div class="flex gap-4 items-start">
+                        <div class="w-10 h-10 rounded-full bg-aksen text-utama flex items-center justify-center shrink-0">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-gray-700">Alamat Sekolah</h4>
+                            <p class="text-gray-600 text-sm mt-1">Jl. SKB No.01, Sungai Beringin, Kec. Tembilahan, Kabupaten Indragiri Hilir, Riau 29281</p>
+                        </div>
+                    </div>
+
+                    <div class="flex gap-4 items-start">
+                        <div class="w-10 h-10 rounded-full bg-aksen text-utama flex items-center justify-center shrink-0">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-gray-700">Email Resmi</h4>
+                            <a href="mailto:smkn2tembilahan.inhil@gmail.com" class="text-emerald-600 text-sm hover:underline mt-1 block">smkn2tembilahan.inhil@gmail.com</a>
+                        </div>
+                    </div>
+
+                    <div class="flex gap-4 items-start">
+                        <div class="w-10 h-10 rounded-full bg-aksen text-utama flex items-center justify-center shrink-0">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-gray-700">Nomor Telepon</h4>
+                            <p class="text-gray-600 text-sm mt-1">0812 6810 2595</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-gray-50 p-8 rounded-2xl border border-gray-100 shadow-sm">
+                    <h3 class="text-2xl font-bold text-gray-900 mb-6">Media Sosial Resmi</h3>
+                    <p class="text-gray-600 mb-6 text-sm">Ikuti akun media sosial resmi kami untuk mendapatkan informasi terbaru seputar kegiatan sekolah, prestasi, dan pengumuman PPDB.</p>
+                    
+                    <div class="space-y-4">
+                        <a href="https://instagram.com/official.smkn2tembilahan" target="_blank" class="flex items-center gap-4 p-3 bg-white hover:bg-emerald-50 rounded-xl border border-gray-200 transition group shadow-sm">
+                            <div class="w-10 h-10 rounded-lg bg-gradient-to-tr from-yellow-500 via-red-500 to-purple-600 text-white flex items-center justify-center text-xl">
+                                <i class="fab fa-instagram"></i>
+                            </div>
+                            <div>
+                                <span class="text-xs text-gray-400 block">Instagram</span>
+                                <span class="text-sm font-semibold text-gray-700 group-hover:text-utama">@official.smkn2tembilahan</span>
+                            </div>
+                        </a>
+
+                        <a href="https://tiktok.com/@officialsmkn2.tembilahan" target="_blank" class="flex items-center gap-4 p-3 bg-white hover:bg-emerald-50 rounded-xl border border-gray-200 transition group shadow-sm">
+                            <div class="w-10 h-10 rounded-lg bg-black text-white flex items-center justify-center text-xl">
+                                <i class="fab fa-tiktok"></i>
+                            </div>
+                            <div>
+                                <span class="text-xs text-gray-400 block">TikTok</span>
+                                <span class="text-sm font-semibold text-gray-700 group-hover:text-utama">@officialsmkn2.tembilahan</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-emerald-950 text-emerald-300 py-8 border-t border-emerald-900 text-center text-sm">
+        <div class="max-w-7xl mx-auto px-4">
+            <p>&copy; 2026 SMKN 2 Tembilahan. Hak Cipta Dilindungi Undang-Undang.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
